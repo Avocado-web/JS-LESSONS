@@ -1,5 +1,22 @@
 "use strict";
 
+const title = document.getElementsByTagName("h1");
+const btnResult = document.getElementsByClassName("handler_btn");
+const addScreen = document.querySelector("screen-btn");
+const otherItems = document.querySelectorAll("other-items, percent");
+const otherItems2 = document.querySelectorAll("other-items, number");
+const rollback = document.querySelector("rollback > input[type=range]");
+const rollbackPercentage = document.querySelector("rollback > span.range-value");
+const totalInput = document.getElementsByClassName("total-input");
+
+let screens = document.querySelectorAll("screen");
+
+for (let input of totalInput) {
+    console.log(input.id);
+}
+
+console.log(title[0]);
+
 const appData = {
     title: "",
     screens: [],
