@@ -74,7 +74,6 @@ const appData = {
             this.disableToggle(true);
             this.changeBtn();
         }
-        // this.logger();
     },
 
     showResults: function() {
@@ -128,7 +127,6 @@ const appData = {
         const cloneScreen = screens[0].cloneNode(true);
         cloneScreen.querySelector('input').value = '';
 
-        // screens[screens.length - 1].after(cloneScreen);
         const screensContainer = document.querySelector('.main-controls__views');
         screensContainer.insertBefore(cloneScreen, buttonPlus);
     },
