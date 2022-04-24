@@ -194,9 +194,7 @@ const appData = {
             if (i !== 0) {
                 elem.remove();
             }
-            // for (let i = 1; i < screens.length; i++) {
-            //   screens[i].remove();
-            // }
+
             if (i === 0) {
                 const select = elem.querySelector('select');
                 select.value = '';
